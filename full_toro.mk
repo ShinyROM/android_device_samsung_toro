@@ -21,10 +21,6 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera and Gallery
-PRODUCT_PACKAGES := \
-    Gallery
-
 # Do this before aosp_base_telephony is included since the first instance takes precedence
 PRODUCT_COPY_FILES += \
     device/samsung/toro/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
