@@ -16,6 +16,7 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.call_ring.multiple=0
 
 ro.telephony.toroRIL=1
+persist.radio.apn_delay=5000
 
 # Turn on IMS by default
 persist.radio.imsregrequired=1
